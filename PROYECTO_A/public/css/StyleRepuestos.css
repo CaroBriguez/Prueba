@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+.menu{
+    background-color: rgba(244, 244, 244, 0.773);
+}
+
+.menu-opciones{
+    text-decoration: none;
+    color: black ;
+    margin: 7px;
+}
+
+.menu-opciones:hover{
+    background-color: rgb(229, 229, 229);
+    font-size: 17px;
+}
+
+.boton-anadir{
+    background-color:#e00023;
+    color: white;
+    border: #e00023;
+    border-radius: 100px;
+    width: 50px;
+    padding: 5px 1px;
+}
+
+.boton-anadir:hover{
+    cursor: pointer;
+    background-color: #e00023;
+    font-size: 15px;
+}
+
+.search{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px
+}
+
+.icono{
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+}
+
+.icono button{
+    height: 50px;
+    width: 50px;
+    background-color: #27cd40;
+    border-radius: 100% ;
+    border: solid #27cd40;
+}
+
+.icono button i{
+    color: white;
+    font-size: 30px;
+}
+
+.icono button i:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    font-size: 14px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: left;
+}
+
+.contacto , .servicio{
+    width: 30%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.contacto ul li,.servicio ul li{
+    margin: 15px;
+    font-size: 17px;
+}
+
+footer .container .servicio ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+footer .container .servicio ul li a:hover{
+    font-size: 17.5px;
+}
+
+#title{
+    font-weight:bold;
+    font-size: 20px;
+    color: #e00023;
+}
+
+
+.p{
+    color: rgb(115, 115, 115);
+}
